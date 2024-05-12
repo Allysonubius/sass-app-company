@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  background-color:var(--color-white);
+  color: var(--color-white);
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 1rem;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: var(--color-bluish-gray);
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color:var(--color-orange);
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
