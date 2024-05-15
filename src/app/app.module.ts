@@ -11,6 +11,8 @@ import { FeaturesComponent } from './Pages/features/features.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { ContainerComponent } from './Components/container/container.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { TooltipModule } from 'ng2-tooltip-directive';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { ContainerComponent } from './Components/container/container.component';
     FeaturesComponent,
     ContactComponent,
     NavbarComponent,
-    ContainerComponent
+    ContainerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

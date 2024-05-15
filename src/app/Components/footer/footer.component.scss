@@ -1,0 +1,78 @@
+.footer{
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: auto;
+}
+
+.footer .footer-column{
+  display: flex;
+  padding: 15rem 0 5rem 0;
+  margin: 1rem;
+}
+
+.footer-column .mark {
+  margin: 1rem 7rem 0 7rem;
+}
+
+.logo img {
+  padding: 2rem;
+  height: 3rem;
+}
+
+h2{
+  color:var(--color-bluish-gray);
+}
+
+.mark{
+  list-style-type: none;
+  margin-left: -2.5rem;
+}
+
+.mark li{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.mark li a {
+  color:var(--color-turquoise);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mark li a:hover{
+  color:var(--color-orange);
+}
+
+
+.line{
+  border: none;
+  border-top: 5px solid var(--color-pool--blue);
+  margin: 20px 0;
+}
+
+.text-footer{
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-footer span{
+  color: var(--color-turquoise);
+}
+
+.text-footer .rede-sociais{
+  display: flex;
+  margin-right: 2rem;
+}
+
+.text-footer .rede-sociais img{
+  width: 20px;
+  padding: 0.3rem;
+  border-radius: 4px;
+  margin: 0.5rem;
+  background: var(--color-bluish-gray);
+}
+
+
