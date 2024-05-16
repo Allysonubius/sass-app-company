@@ -13,6 +13,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { ContainerComponent } from './Components/container/container.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { TooltipModule } from 'ng2-tooltip-directive';
+import { InitTextComponent } from './Components-text/init-text/init-text.component';
+import { WhatWeDoComponent } from './Components-text/what-we-do/what-we-do.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TooltipModule } from 'ng2-tooltip-directive';
     ContactComponent,
     NavbarComponent,
     ContainerComponent,
-    FooterComponent
+    FooterComponent,
+    InitTextComponent,
+    WhatWeDoComponent
   ],
   imports: [
     BrowserModule,

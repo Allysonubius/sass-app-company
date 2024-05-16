@@ -1,0 +1,21 @@
+.text-page{
+  width: 95%;
+  border-radius: 1rem;
+}
+
+.text-page h1{
+  color:var(--color-orange);
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: -3rem;
+}
+
+.text-page h2{
+  font-size: 52px;
+  letter-spacing: 5px;
+  margin-bottom: -3.5rem;
+  color: var(--color-bluish-gray);
+  text-align: center;
+  padding: 0.2rem;
+}
